@@ -29,5 +29,9 @@ public class Operaciones{
         }while(x-x1>0.0001);
         return x1;
     }
+    public double cambiarSigno(double a){
+        
+        return -a;
+    }
     
 }

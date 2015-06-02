@@ -23,7 +23,8 @@ public class Calculadora {
          System.out.println("5) Division (a/b)");
          System.out.println("6) Potenciacion (a^b)");
          System.out.println("7) Raiz cuadrada (a)");
-         System.out.println("8) Salir");
+         System.out.println("8) Cambiar signo (a)");
+         System.out.println("9) Salir");
          System.out.println("Respuesta: ");
          opcion = sc.nextInt();
          switch (opcion){
@@ -50,6 +51,9 @@ public class Calculadora {
                 System.out.println("La raiz es: "+ op.raiz(a));
                  break;
             case 8:
+                System.out.println("Si cambiamos signo es: "+ op.cambiarSigno(a));
+                 break;
+            case 9:
                 opcion=8;
                  break;    
                  
